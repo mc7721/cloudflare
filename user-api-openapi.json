@@ -1,0 +1,16 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "User API",
+        "description": "The API for managing CloudFlare User",
+        "termsOfService": "https:\/\/www.cloudflare.com\/terms\/"
+    },
+    "servers": [
+        "httpsapi.cloudflare.com\/client\/v4"
+    ],
+    "paths": [],
+    "components": {
+        "schemas": []
+    }
+}
