@@ -1,0 +1,12 @@
+{
+    "id": "d5482c042940266066a74e83ce7f10ad",
+    "name": "Firewall access rule for a Zone API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": []
+}
