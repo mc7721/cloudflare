@@ -1,0 +1,3576 @@
+{
+    "id": "ae4166ebef36817babba812ff0954b72",
+    "name": "CloudFlare",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "44c92a883a982b666535122ced282719",
+            "name": "List all of your app subscriptions",
+            "url": "https\/user\/billing\/subscriptions\/apps",
+            "description": "List all of your app subscriptions",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "activated_on",
+                    "description": "When the subscription was activated2014-03-01T12:20:00Z",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "cancelled_on",
+                    "description": "When the subscription was cancelled2014-04-01T12:20:00Z",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "direction",
+                    "description": "Direction to order subscriptionsdesc",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "expired_on",
+                    "description": "When the subscription expired2014-04-02T12:20:00Z",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "expires_on",
+                    "description": "When the subscription will expire2014-03-31T12:20:00Z",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "match",
+                    "description": "Whether to match all search requirements or at least one (any)all",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "order",
+                    "description": "Field to order subscriptions bystatus",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "page",
+                    "description": "Page number of paginated results1",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "per_page",
+                    "description": "Number of items per page20",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "price",
+                    "description": "The price of the subscription that will be billed, in US dollars20",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "renewed_on",
+                    "description": "When the subscription was renewed2014-05-11T12:20:00Z",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "status",
+                    "description": "The state of the subscriptionactive",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "X",
+                    "description": "Email address associated with your account",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "cca1e8947870ee81dbe885a8d861fa62",
+            "name": "Billing subscription details",
+            "url": "https\/user\/billing\/subscriptions\/apps\/:identifier",
+            "description": "Billing subscription details",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "a06a1b11693198f17902460043218185",
+            "name": "A list of available Custom Pages the zone can use",
+            "url": "https\/zones\/:zone_identifier\/custom_pages",
+            "description": "A list of available Custom Pages the zone can use",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "f1ca9964bca80883b06ed06bbd1afa3b",
+            "name": "Details about a specific Custom page details",
+            "url": "https\/zones\/:zone_identifier\/custom_pages\/:identifier",
+            "description": "Details about a specific Custom page details",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "f7798a3561cba2afdf5ab95e940af5cf",
+            "name": "Update Custom page URL",
+            "url": "https\/zones\/:zone_identifier\/custom_pages\/:identifier",
+            "description": "Update Custom page URL",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "state",
+                    "description": "The Custom Page statettttttttttttttdefault",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "url",
+                    "description": "A URL that is associated with the Custom Page.tttttttttttttthttp:\/\/www.example.com",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "X",
+                    "description": "Email address associated with your account",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "a33652dda3f2b2531affbf7b7487235b",
+            "name": "List, search, sort, and filter all of your custom SSL certificates",
+            "url": "https\/zones\/:zone_identifier\/custom_certificates",
+            "description": "List, search, sort, and filter all of your custom SSL certificates",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "direction",
+                    "description": "Direction to order subscriptionsdesc",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "match",
+                    "description": "Whether to match all search requirements or at least one (any)all",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "order",
+                    "description": "Field to order subscriptions bystatus",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "page",
+                    "description": "Page number of paginated results1",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "per_page",
+                    "description": "Number of items per page20",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "status",
+                    "description": "The state of the subscriptionactive",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "X",
+                    "description": "Email address associated with your account",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "65780061687794cca29bfe3d63989eff",
+            "name": "Upload a new SSL certificate for a zone",
+            "url": "https\/zones\/:zone_identifier\/custom_certificates",
+            "description": "Upload a new SSL certificate for a zone",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "certificate",
+                    "description": "The zones SSL certificate or certificate and the intermediate(s)tttttttttttttt-----BEGIN CERTIFICATE----- MIIDtTCCAp2gAwIBAgIJAM15n7fdxhRtMA0GCSqGSIb3DQEBBQUAMEUxCzAJBgNV BAYTAlVTMRMwEQYDVQQIEwpTb21lLVN0YXRlMSEwHwYDVQQKExhJbnRlcm5ldCBX aWRnaXRzIFB0eSBMdGQwHhcNMTQwMzExMTkyMTU5WhcNMTQwNDEwMTkyMTU5WjBF MQswCQYDVQQGEwJVUzETMBEGA1UECBMKU29tZS1TdGF0ZTEhMB8GA1UEChMYSW50 ZXJuZXQgV2lkZ2l0cyBQdHkgTHRkMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB CgKCAQEAvq3sKsHpeduJHimOK+fvQdKsI8z8A05MZyyLp2\/R\/GE8FjNv+hkVY1WQ LIyT",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "private_key",
+                    "description": "The zones private keytttttttttttttt-----BEGIN RSA PRIVATE KEY-----MIIEowIBAAKCAQEAl 1cSc0vfcJLI4ZdWjiZZqy86Eof4czCwilyjXdvHqbdgDjz9H6K\/0FX78EzVdfyExESptPCDl5YYjvcZyAWlgNfYEpFpGeoh\/pTFW3hlyKImh4EgBXbDrR251J Ew2Nf56X3duibI6X20gKZA6cvdmWeKh MOOXuh1bSPU3dkb4YOF\/fng5iGrx0q3txdMQXTPMZ1uXHFcBH7idgViYesXUBhdll3GP1N Y8laq0yrqh 8HMsZK m27MebqonbNmjOqE218lVEvjCdRO6xvNXrO6vNJBoGn2eGwZ8BVd0mTA3Tj43\/2cmxQFY9FLq56cCXqYI1fbRRib ZLrjSNkwIDAQABAoIBABfAjjsjjxc0NxcYvKOMUb9Rpj8Sx6U\/o\/tDC5u XmsGX37aaJmC5yw9BQiAxgvXtQ",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "X",
+                    "description": "Email address associated with your account",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "1670cb526dd1fa4b515f5ecd497627e3",
+            "name": "Delete an SSL certificate permission needed: #ssl:edit",
+            "url": "https\/zones\/:zone_identifier\/custom_certificates\/:identifier",
+            "description": " Delete an SSL certificate permission needed: #ssl:editntt  ",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "50603d4191e90e491087f038a5ba4d12",
+            "name": "SSL configuration details permission needed: #ssl:read",
+            "url": "https\/zones\/:zone_identifier\/custom_certificates\/:identifier",
+            "description": " SSL configuration details permission needed: #ssl:readntt  ",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "97aa427b3c086151294996301685d71d",
+            "name": "Upload a new private key and\/or PEM\/CRT for the SSL certificate",
+            "url": "https\/zones\/:zone_identifier\/custom_certificates\/:identifier",
+            "description": "Upload a new private key and\/or PEM\/CRT for the SSL certificate",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "patch",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "certificate",
+                    "description": "The zones SSL certificate or certificate and the intermediate(s)tttttttttttttt-----BEGIN CERTIFICATE----- MIIDtTCCAp2gAwIBAgIJAM15n7fdxhRtMA0GCSqGSIb3DQEBBQUAMEUxCzAJBgNV BAYTAlVTMRMwEQYDVQQIEwpTb21lLVN0YXRlMSEwHwYDVQQKExhJbnRlcm5ldCBX aWRnaXRzIFB0eSBMdGQwHhcNMTQwMzExMTkyMTU5WhcNMTQwNDEwMTkyMTU5WjBF MQswCQYDVQQGEwJVUzETMBEGA1UECBMKU29tZS1TdGF0ZTEhMB8GA1UEChMYSW50 ZXJuZXQgV2lkZ2l0cyBQdHkgTHRkMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB CgKCAQEAvq3sKsHpeduJHimOK+fvQdKsI8z8A05MZyyLp2\/R\/GE8FjNv+hkVY1WQ LIyT",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "private_key",
+                    "description": "The zones private keytttttttttttttt-----BEGIN RSA PRIVATE KEY-----MIIEowIBAAKCAQEAl 1cSc0vfcJLI4ZdWjiZZqy86Eof4czCwilyjXdvHqbdgDjz9H6K\/0FX78EzVdfyExESptPCDl5YYjvcZyAWlgNfYEpFpGeoh\/pTFW3hlyKImh4EgBXbDrR251J Ew2Nf56X3duibI6X20gKZA6cvdmWeKh MOOXuh1bSPU3dkb4YOF\/fng5iGrx0q3txdMQXTPMZ1uXHFcBH7idgViYesXUBhdll3GP1N Y8laq0yrqh 8HMsZK m27MebqonbNmjOqE218lVEvjCdRO6xvNXrO6vNJBoGn2eGwZ8BVd0mTA3Tj43\/2cmxQFY9FLq56cCXqYI1fbRRib ZLrjSNkwIDAQABAoIBABfAjjsjjxc0NxcYvKOMUb9Rpj8Sx6U\/o\/tDC5u XmsGX37aaJmC5yw9BQiAxgvXtQ",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "X",
+                    "description": "Email address associated with your account",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "7d700c7abd55639b17403b8d65dc329d",
+            "name": "If a zone has multiple SSL certificates, you can set the order in which they should be used during a request",
+            "url": "https\/zones\/:zone_identifier\/custom_certificates\/prioritize",
+            "description": "If a zone has multiple SSL certificates, you can set the order in which they should be used during a request",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "certificates",
+                    "description": "Array of ordered certificates.tttttttttttttt[{ID:5a7805061c76ada191ed06f989cc3dac,priority:2},{ID:9a7806061c88ada191ed06f989cc3dac,priority:1}]",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "X",
+                    "description": "Email address associated with your account",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "17aa9431dbe30bb589562d1943ff6224",
+            "name": "List, search, sort, and filter a zones&#39; DNS records",
+            "url": "https\/zones\/:zone_identifier\/dns_records",
+            "description": "List, search, sort, and filter a zones&#39; DNS records",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "content",
+                    "description": "DNS record contenttttttttttttttt127.0.0.1",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "direction",
+                    "description": "Direction to order subscriptionsdesc",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "match",
+                    "description": "Whether to match all search requirements or at least one (any)all",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "name",
+                    "description": "DNS record namettttttttttttttexample.com",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "order",
+                    "description": "Field to order subscriptions bystatus",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "page",
+                    "description": "Page number of paginated results1",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "per_page",
+                    "description": "Number of items per page20",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "type",
+                    "description": "DNS record typettttttttttttttA",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "X",
+                    "description": "Email address associated with your account",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "95f687356174cf7d6016e6747da71e18",
+            "name": "Create a new DNS record for a zone",
+            "url": "https\/zones\/:zone_identifier\/dns_records",
+            "description": "Create a new DNS record for a zone",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "content",
+                    "description": "DNS record contenttttttttttttttt127.0.0.1",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "name",
+                    "description": "DNS record namettttttttttttttexample.com",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "type",
+                    "description": "DNS record typettttttttttttttA",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "X",
+                    "description": "Email address associated with your account",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "11c0fbdd03fdc569eb4ff92661d72f51",
+            "name": "Delete DNS record permission needed: #dns_records:edit",
+            "url": "https\/zones\/:zone_identifier\/dns_records\/:identifier",
+            "description": " Delete DNS record permission needed: #dns_records:editntt  ",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "1db3d6961c4d496343f7bf0060e84e42",
+            "name": "DNS record details permission needed: #dns_records:read",
+            "url": "https\/zones\/:zone_identifier\/dns_records\/:identifier",
+            "description": " DNS record details permission needed: #dns_records:readntt  ",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "fb7641ad80c189693b3572571068ae0e",
+            "name": "Update DNS record permission needed: #dns_records:edit",
+            "url": "https\/zones\/:zone_identifier\/dns_records\/:identifier",
+            "description": " Update DNS record permission needed: #dns_records:editntt  ",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "3e80ef0cfa67d41ee3a14b4d6c6022fd",
+            "name": "Search, sort, and filter IP\/country access rules",
+            "url": "https\/zones\/:zone_id\/firewall\/access_rules\/rules",
+            "description": "Search, sort, and filter IP\/country access rules",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "configuration_target",
+                    "description": "The rule configuration targetttttttttttttttip",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "configuration_value",
+                    "description": "Search by IP, range, or country codetttttttttttttt1.2.3.4",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "direction",
+                    "description": "Direction to order subscriptionsdesc",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "match",
+                    "description": "Whether to match all search requirements or at least one (any)all",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "mode",
+                    "description": "The action to apply to a matched requestttttttttttttttchallenge",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "order",
+                    "description": "Field to order subscriptions bystatus",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "page",
+                    "description": "Page number of paginated results1",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "per_page",
+                    "description": "Number of items per page20",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "scope_type",
+                    "description": "The scope of the rulesttttttttttttttzone",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "X",
+                    "description": "Email address associated with your account",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "22fc4cb6c08cbb7af61cd1d1e9d0202b",
+            "name": "Make a new IP, IP range, or country access rule for the zone",
+            "url": "https\/zones\/:zone_id\/firewall\/access_rules\/rules",
+            "description": "Make a new IP, IP range, or country access rule for the zone",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "configuration",
+                    "description": "Rule configurationtttttttttttttttttttttOne of the following:tttttttttttttttttttttttttttttShow definition &raquo;ttttttttttttttttttttttttttttttttttttttName \/typetttttttttttDescription \/exampletttttttttttConstraintstttttttttttttttttttttttttttttttttttttttttttttttttttttttttargettttttttttttttstring",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "mode",
+                    "description": "The action to apply to a matched requestttttttttttttttchallenge",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "value",
+                    "description": "The IP address to target in requeststtttttttttttttttttttttttttttttttttt1.2.3.4",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "X",
+                    "description": "Email address associated with your account",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "44ebb696c9e62661f3a6cac56630c175",
+            "name": "Remove an access rule so it is no longer evaluated during requests",
+            "url": "https\/zones\/:zone_id\/firewall\/access_rules\/rules\/:identifier",
+            "description": "Remove an access rule so it is no longer evaluated during requests",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "cascade",
+                    "description": "The level to attempt to delete rules defined on other zones that are similar to this rulettttttttttttttnone",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "X",
+                    "description": "Email address associated with your account",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "16c32ab013a1f7f6f53f30060148d008",
+            "name": "Update rule state and\/or configuration for the zone",
+            "url": "https\/zones\/:zone_id\/firewall\/access_rules\/rules\/:identifier",
+            "description": "Update rule state and\/or configuration for the zone",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "patch",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "mode",
+                    "description": "The action to apply to a matched requestttttttttttttttchallenge",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "notes",
+                    "description": "A personal note about the rule. Typically used as a reminder or explanation for the rule.ttttttttttttttThis rule is on because of an event that occured on date X",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "X",
+                    "description": "Email address associated with your account",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "56d3a02dd9fd5f9c11881cfc27961809",
+            "name": "List all Keyless SSL configurations for a given zone",
+            "url": "https\/zones\/:zone_identifier\/keyless_certificates",
+            "description": "List all Keyless SSL configurations for a given zone",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "f598628f6317db4de3c1421eb2eb25df",
+            "name": "The keyless SSL name",
+            "url": "https\/zones\/:zone_identifier\/keyless_certificates",
+            "description": "The keyless SSL name",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "certificate",
+                    "description": "The zones SSL certificate or certificate and the intermediate(s)tttttttttttttt-----BEGIN CERTIFICATE----- MIIDtTCCAp2gAwIBAgIJAM15n7fdxhRtMA0GCSqGSIb3DQEBBQUAMEUxCzAJBgNV BAYTAlVTMRMwEQYDVQQIEwpTb21lLVN0YXRlMSEwHwYDVQQKExhJbnRlcm5ldCBX aWRnaXRzIFB0eSBMdGQwHhcNMTQwMzExMTkyMTU5WhcNMTQwNDEwMTkyMTU5WjBF MQswCQYDVQQGEwJVUzETMBEGA1UECBMKU29tZS1TdGF0ZTEhMB8GA1UEChMYSW50 ZXJuZXQgV2lkZ2l0cyBQdHkgTHRkMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB CgKCAQEAvq3sKsHpeduJHimOK+fvQdKsI8z8A05MZyyLp2\/R\/GE8FjNv+hkVY1WQ LIyT",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "host",
+                    "description": "The keyless SSL namettttttttttttttexample.com",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "name",
+                    "description": "DNS record namettttttttttttttexample.com",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "port",
+                    "description": "The keyless SSL port used to commmunicate between CloudFlare and the clients Keyless SSL servertttttttttttttt24008",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "X",
+                    "description": "Email address associated with your account",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "1cd5bd01c5e0a9870213badac28bfd7b",
+            "name": "Delete Keyless configuration permission needed: #ssl:edit",
+            "url": "https\/zones\/:zone_identifier\/keyless_certificates\/:identifier",
+            "description": " Delete Keyless configuration permission needed: #ssl:editntt  ",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "9e193a3e990861bae276c8f69547717a",
+            "name": "Details for one Keyless SSL configuration",
+            "url": "https\/zones\/:zone_identifier\/keyless_certificates\/:identifier",
+            "description": "Details for one Keyless SSL configuration",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "741da346f089aa42b429dca2d601bf21",
+            "name": "This will update attributes of a Keyless SSL",
+            "url": "https\/zones\/:zone_identifier\/keyless_certificates\/:identifier",
+            "description": "This will update attributes of a Keyless SSL",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "patch",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "host",
+                    "description": "The keyless SSL namettttttttttttttexample.com",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "name",
+                    "description": "DNS record namettttttttttttttexample.com",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "port",
+                    "description": "The keyless SSL port used to commmunicate between CloudFlare and the clients Keyless SSL servertttttttttttttt24008",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "X",
+                    "description": "Email address associated with your account",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "49b1dcb3ff68bd6d804af4fc58685b2a",
+            "name": "Change the Roles of a Pending Invite",
+            "url": "https\/organizations\/:organization_identifier\/invite\/:identifier",
+            "description": "Change the Roles of a Pending Invite",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "patch",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "roles",
+                    "description": "Array of Roles associated with the invited usertttttttttttttt[3536bcfad5faccb999b47003c79917fb]",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "X",
+                    "description": "Email address associated with your account",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "1e2533703617d45d6f13d3bc32c76546",
+            "name": "List all invitations associated with an organization",
+            "url": "https\/organizations\/:organization_identifier\/invites",
+            "description": "List all invitations associated with an organization",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "9317fae0bf2f0969e22ade90a7768f40",
+            "name": "Invite a User to become a Member of an Organization",
+            "url": "https\/organizations\/:organization_identifier\/invites",
+            "description": "Invite a User to become a Member of an Organization",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "invited_member_email",
+                    "description": "Email address of the user to be added to the Organizationttttttttttttttuser@example.com",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "roles",
+                    "description": "Array of Roles associated with the invited usertttttttttttttt[3536bcfad5faccb999b47003c79917fb]",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "X",
+                    "description": "Email address associated with your account",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "27cc1eb04f1d010c56f4e16a81776ce7",
+            "name": "Cancel an existing invitation",
+            "url": "https\/organizations\/:organization_identifier\/invites\/:identifier",
+            "description": "Cancel an existing invitation",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "f65e73bb6efeeccc7fb07d4ccbd6f729",
+            "name": "Get the details of an invitation",
+            "url": "https\/organizations\/:organization_identifier\/invites\/:identifier",
+            "description": "Get the details of an invitation",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "43cc86d90dd5a9bcd55f6ffcea8054a2",
+            "name": "List all members of a organization",
+            "url": "https\/organizations\/:organization_identifier\/members",
+            "description": "List all members of a organization",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "f090e032a833c5d642aa629eeb1f1d50",
+            "name": "Remove a member from an organization",
+            "url": "https\/organizations\/:organization_identifier\/members\/:identifier",
+            "description": "Remove a member from an organization",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "d84afd76aee3839adf113dc2196f53f4",
+            "name": "Get information about a specific member of an organization",
+            "url": "https\/organizations\/:organization_identifier\/members\/:identifier",
+            "description": "Get information about a specific member of an organization",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "77f2bc190ebc475ab2fc468136d20b54",
+            "name": "Change the Roles of an Organization&#39;s Member",
+            "url": "https\/organizations\/:organization_identifier\/members\/:identifier",
+            "description": "Change the Roles of an Organization&#39;s Member",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "patch",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "roles",
+                    "description": "Array of Roles associated with the invited usertttttttttttttt[3536bcfad5faccb999b47003c79917fb]",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "X",
+                    "description": "Email address associated with your account",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "502873afdfced5c741d14bf8b0d6378d",
+            "name": "Get all available roles for an organization",
+            "url": "https\/organizations\/:organization_identifier\/roles",
+            "description": "Get all available roles for an organization",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "e46d7f15c40033272534db373f0f4d3e",
+            "name": "Get information about a specific role for an organization",
+            "url": "https\/organizations\/:organization_identifier\/roles\/:identifier",
+            "description": "Get information about a specific role for an organization",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "dbcefbb35bff37961fea683443e97676",
+            "name": "Search, sort, and filter IP\/country access rules",
+            "url": "https\/organizations\/:organization_id\/firewall\/access_rules\/rules",
+            "description": "Search, sort, and filter IP\/country access rules",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "configuration_target",
+                    "description": "The rule configuration targetttttttttttttttip",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "configuration_value",
+                    "description": "Search by IP, range, or country codetttttttttttttt1.2.3.4",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "direction",
+                    "description": "Direction to order subscriptionsdesc",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "match",
+                    "description": "Whether to match all search requirements or at least one (any)all",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "mode",
+                    "description": "The action to apply to a matched requestttttttttttttttchallenge",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "order",
+                    "description": "Field to order subscriptions bystatus",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "page",
+                    "description": "Page number of paginated results1",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "per_page",
+                    "description": "Number of items per page20",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "X",
+                    "description": "Email address associated with your account",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "85842560056f4d646e9e68e489cff768",
+            "name": "Make a new IP, IP range, or country access rule for all zones owned by the organization",
+            "url": "https\/organizations\/:organization_id\/firewall\/access_rules\/rules",
+            "description": "Make a new IP, IP range, or country access rule for all zones owned by the organization",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "configuration",
+                    "description": "Rule configurationtttttttttttttttttttttOne of the following:tttttttttttttttttttttttttttttShow definition &raquo;ttttttttttttttttttttttttttttttttttttttName \/typetttttttttttDescription \/exampletttttttttttConstraintstttttttttttttttttttttttttttttttttttttttttttttttttttttttttargettttttttttttttstring",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "mode",
+                    "description": "The action to apply to a matched requestttttttttttttttchallenge",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "value",
+                    "description": "The IP address to target in requeststtttttttttttttttttttttttttttttttttt1.2.3.4",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "X",
+                    "description": "Email address associated with your account",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "f779a7a9bc35b32f7551a21764aad0dc",
+            "name": "Remove an access rule so it is no longer evaluated during requests",
+            "url": "https\/organizations\/:organization_id\/firewall\/access_rules\/rules\/:identifier",
+            "description": "Remove an access rule so it is no longer evaluated during requests",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "ad7baf91e1acef422943d272251df42a",
+            "name": "Update rule state and\/or configuration",
+            "url": "https\/organizations\/:organization_id\/firewall\/access_rules\/rules\/:identifier",
+            "description": "Update rule state and\/or configuration",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "patch",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "configuration",
+                    "description": "Rule configurationtttttttttttttttttttttOne of the following:tttttttttttttttttttttttttttttShow definition &raquo;ttttttttttttttttttttttttttttttttttttttName \/typetttttttttttDescription \/exampletttttttttttConstraintstttttttttttttttttttttttttttttttttttttttttttttttttttttttttargettttttttttttttstring",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "mode",
+                    "description": "The action to apply to a matched requestttttttttttttttchallenge",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "value",
+                    "description": "The IP address to target in requeststtttttttttttttttttttttttttttttttttt1.2.3.4",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "X",
+                    "description": "Email address associated with your account",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "6885ff58140f1735ac36d6a19abd6435",
+            "name": "Get information about a specific organization that you are a member of",
+            "url": "https\/organizations\/:identifier",
+            "description": "Get information about a specific organization that you are a member of",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "3ed6abf5be79be0a593946a63039f7be",
+            "name": "Update an existing Organization",
+            "url": "https\/organizations\/:identifier",
+            "description": "Update an existing Organization",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "patch",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "name",
+                    "description": "DNS record namettttttttttttttexample.com",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "X",
+                    "description": "Email address associated with your account",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "6bc2f73ebb6306381db63c18c3b1eeff",
+            "name": "List, search, sort and filter your Railguns",
+            "url": "https\/railguns",
+            "description": "List, search, sort and filter your Railguns",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "direction",
+                    "description": "Direction to order subscriptionsdesc",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "page",
+                    "description": "Page number of paginated results1",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "per_page",
+                    "description": "Number of items per page20",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "X",
+                    "description": "Email address associated with your account",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "d01ed3162c48fdd18ef4faf0c5734ba8",
+            "name": "Readable identifier of the railgun",
+            "url": "https\/railguns",
+            "description": "Readable identifier of the railgun",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "name",
+                    "description": "DNS record namettttttttttttttexample.com",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "X",
+                    "description": "Email address associated with your account",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "cc756b17ed7ed33d9c0e2be8e30f206c",
+            "name": "Disable and delete a Railgun",
+            "url": "https\/railguns\/:identifier",
+            "description": "Disable and delete a Railgun",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "ebeb954cd6e5f5c27129ca04258e96f9",
+            "name": "Railgun details",
+            "url": "https\/railguns\/:identifier",
+            "description": " Railgun detailsntt  ",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "2ad733a9a41fde702d54400edd462bde",
+            "name": "Enable or disable a Railgun for all zones connected to it",
+            "url": "https\/railguns\/:identifier",
+            "description": "Enable or disable a Railgun for all zones connected to it",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "patch",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "enabled",
+                    "description": "Flag to determine if the Railgun is accepting connectionstttttttttttttttrue",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "X",
+                    "description": "Email address associated with your account",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "94f21326e34df526673c9e6b91eb1367",
+            "name": "The zones that are currently using this Railgun",
+            "url": "https\/railguns\/:identifier\/zones",
+            "description": "The zones that are currently using this Railgun",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "c0c31c3f70b2678fd14e5a5a09f3fd44",
+            "name": "A list of available Railguns the zone can use",
+            "url": "https\/zones\/:zone_identifier\/railguns",
+            "description": "A list of available Railguns the zone can use",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "b5db4b574e2a63d3a6306ae02b94d429",
+            "name": "Details about a specific Railgun",
+            "url": "https\/zones\/:zone_identifier\/railguns\/:identifier",
+            "description": "Details about a specific Railgun",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "e64608d335e179071d9d8daca66652ca",
+            "name": "Connect or disconnect a Railgun",
+            "url": "https\/zones\/:zone_identifier\/railguns\/:identifier",
+            "description": "Connect or disconnect a Railgun",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "patch",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "connected",
+                    "description": "A flag indicating whether the given zone is connected to the Railguntttttttttttttttrue",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "X",
+                    "description": "Email address associated with your account",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "0cb0b3c0cc5d87484e5c25b6ec004afe",
+            "name": "Test Railgun connection to the Zone",
+            "url": "https\/zones\/:zone_identifier\/railguns\/:identifier\/diagnose",
+            "description": "Test Railgun connection to the Zone",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "456f5aaca57ae1824098bc3be90cbc3b",
+            "name": "User details",
+            "url": "https\/user",
+            "description": " User detailsn",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "1ae5220b8a2c4eb6050f6bf65fc9c7b3",
+            "name": "Update part of your user details",
+            "url": "https\/user",
+            "description": "Update part of your user details",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "patch",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "country",
+                    "description": "The country in which the user lives.US",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "first_name",
+                    "description": "Users first nameJohn",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "last_name",
+                    "description": "Users last nameAppleseed",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "telephone",
+                    "description": "Users telephone number+1 123-123-1234",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "X",
+                    "description": "Email address associated with your account",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "zipcode",
+                    "description": "The zipcode or postal code where the user lives.12345",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "65a60b5742202e9cede50a34801fde21",
+            "name": "Access your billing history object",
+            "url": "https\/user\/billing\/history",
+            "description": "Access your billing history object",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "action",
+                    "description": "The billing item actionsubscription",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "occured_at",
+                    "description": "When the billing item was created2014-03-01T12:21:59.3456Z",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "order",
+                    "description": "Field to order subscriptions bystatus",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "page",
+                    "description": "Page number of paginated results1",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "per_page",
+                    "description": "Number of items per page20",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "type",
+                    "description": "DNS record typettttttttttttttA",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "X",
+                    "description": "Email address associated with your account",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "2bc421cb85548752bbad7f7f22140b95",
+            "name": "Access your billing profile object",
+            "url": "https\/user\/billing\/profile",
+            "description": "Access your billing profile object",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "a2b40f4630201a865b5b14f020306f32",
+            "name": "Search, sort, and filter IP\/country access rules",
+            "url": "https\/user\/firewall\/access_rules\/rules",
+            "description": "Search, sort, and filter IP\/country access rules",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "configuration_target",
+                    "description": "The rule configuration targetttttttttttttttip",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "configuration_value",
+                    "description": "Search by IP, range, or country codetttttttttttttt1.2.3.4",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "direction",
+                    "description": "Direction to order subscriptionsdesc",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "match",
+                    "description": "Whether to match all search requirements or at least one (any)all",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "mode",
+                    "description": "The action to apply to a matched requestttttttttttttttchallenge",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "order",
+                    "description": "Field to order subscriptions bystatus",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "page",
+                    "description": "Page number of paginated results1",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "per_page",
+                    "description": "Number of items per page20",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "X",
+                    "description": "Email address associated with your account",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "c2a254dd14136d148531954de7d492ac",
+            "name": "Make a new IP, IP range, or country access rule for all zones owned by the user",
+            "url": "https\/user\/firewall\/access_rules\/rules",
+            "description": "Make a new IP, IP range, or country access rule for all zones owned by the user",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "configuration",
+                    "description": "Rule configurationtttttttttttttttttttttOne of the following:tttttttttttttttttttttttttttttShow definition &raquo;ttttttttttttttttttttttttttttttttttttttName \/typetttttttttttDescription \/exampletttttttttttConstraintstttttttttttttttttttttttttttttttttttttttttttttttttttttttttargettttttttttttttstring",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "mode",
+                    "description": "The action to apply to a matched requestttttttttttttttchallenge",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "value",
+                    "description": "The IP address to target in requeststtttttttttttttttttttttttttttttttttt1.2.3.4",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "X",
+                    "description": "Email address associated with your account",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "0ed442a0283784924b172cf9a0c02dd8",
+            "name": "Remove an access rule so it is no longer evaluated during requests",
+            "url": "https\/user\/firewall\/access_rules\/rules\/:identifier",
+            "description": "Remove an access rule so it is no longer evaluated during requests",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "5fafaff4a343bdfcb05f62cd8cc68548",
+            "name": "Update rule state and\/or configuration",
+            "url": "https\/user\/firewall\/access_rules\/rules\/:identifier",
+            "description": "Update rule state and\/or configuration",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "patch",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "configuration",
+                    "description": "Rule configurationtttttttttttttttttttttOne of the following:tttttttttttttttttttttttttttttShow definition &raquo;ttttttttttttttttttttttttttttttttttttttName \/typetttttttttttDescription \/exampletttttttttttConstraintstttttttttttttttttttttttttttttttttttttttttttttttttttttttttargettttttttttttttstring",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "mode",
+                    "description": "The action to apply to a matched requestttttttttttttttchallenge",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "value",
+                    "description": "The IP address to target in requeststtttttttttttttttttttttttttttttttttt1.2.3.4",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "X",
+                    "description": "Email address associated with your account",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "d7367acf5cf926b9a86fbd1686da08ad",
+            "name": "List all invitations associated with my user",
+            "url": "https\/user\/invites",
+            "description": "List all invitations associated with my user",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "323554cd108e3521f5cfeead1dec1bb4",
+            "name": "Get the details of an invitation",
+            "url": "https\/user\/invites\/:identifier",
+            "description": "Get the details of an invitation",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "63523f5083c0461c6aca34b50c5c6bb9",
+            "name": "Respond to an invitation",
+            "url": "https\/user\/invites\/:identifier",
+            "description": "Respond to an invitation",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "patch",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "status",
+                    "description": "The state of the subscriptionactive",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "X",
+                    "description": "Email address associated with your account",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "d3148960d28d2afa8cae5e986a5186e5",
+            "name": "List organizations the user is associated with",
+            "url": "https\/user\/organizations",
+            "description": "List organizations the user is associated with",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "direction",
+                    "description": "Direction to order subscriptionsdesc",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "match",
+                    "description": "Whether to match all search requirements or at least one (any)all",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "name",
+                    "description": "DNS record namettttttttttttttexample.com",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "order",
+                    "description": "Field to order subscriptions bystatus",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "page",
+                    "description": "Page number of paginated results1",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "per_page",
+                    "description": "Number of items per page20",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "status",
+                    "description": "The state of the subscriptionactive",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "X",
+                    "description": "Email address associated with your account",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "39acceba91458efb395192abe8beae5d",
+            "name": "Remove association to an organization",
+            "url": "https\/user\/organizations\/:identifier",
+            "description": "Remove association to an organization",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "4a1aabd5bd0703dadeb347d4e9cd76dc",
+            "name": "Get a specific organization the user is associated with",
+            "url": "https\/user\/organizations\/:identifier",
+            "description": "Get a specific organization the user is associated with",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "e6a0094d2d3af5f58286b386302cff28",
+            "name": "Search, list, and sort rule groups contained within a package",
+            "url": "https\/zones\/:zone_identifier\/firewall\/waf\/packages\/:package_identifier\/groups",
+            "description": "Search, list, and sort rule groups contained within a package",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "direction",
+                    "description": "Direction to order subscriptionsdesc",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "match",
+                    "description": "Whether to match all search requirements or at least one (any)all",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "mode",
+                    "description": "The action to apply to a matched requestttttttttttttttchallenge",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "name",
+                    "description": "DNS record namettttttttttttttexample.com",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "order",
+                    "description": "Field to order subscriptions bystatus",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "page",
+                    "description": "Page number of paginated results1",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "per_page",
+                    "description": "Number of items per page20",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "rules_count",
+                    "description": "How many rules are contained within this grouptttttttttttttt10",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "X",
+                    "description": "Email address associated with your account",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "89a24fcc9dd85a18f3d3b3714a922274",
+            "name": "Get a single rule group",
+            "url": "https\/zones\/:zone_identifier\/firewall\/waf\/packages\/:package_identifier\/groups\/:identifier",
+            "description": "Get a single rule group",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "f68eec7c6b5df57a00d23a83138b97a4",
+            "name": "Update the state of a rule group",
+            "url": "https\/zones\/:zone_identifier\/firewall\/waf\/packages\/:package_identifier\/groups\/:identifier",
+            "description": "Update the state of a rule group",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "patch",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "mode",
+                    "description": "The action to apply to a matched requestttttttttttttttchallenge",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "X",
+                    "description": "Email address associated with your account",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "29a7f8af7f6e6513d953769f73b5b04f",
+            "name": "Retrieve firewall packages for a zone",
+            "url": "https\/zones\/:zone_identifier\/firewall\/waf\/packages",
+            "description": "Retrieve firewall packages for a zone",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "direction",
+                    "description": "Direction to order subscriptionsdesc",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "match",
+                    "description": "Whether to match all search requirements or at least one (any)all",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "name",
+                    "description": "DNS record namettttttttttttttexample.com",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "order",
+                    "description": "Field to order subscriptions bystatus",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "page",
+                    "description": "Page number of paginated results1",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "per_page",
+                    "description": "Number of items per page20",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "X",
+                    "description": "Email address associated with your account",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "b549e4d1ba7b01963bc0d182ed1befea",
+            "name": "Get information about a single firewall package",
+            "url": "https\/zones\/:zone_identifier\/firewall\/waf\/packages\/:identifier",
+            "description": "Get information about a single firewall package",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "5a9ad9f1c8ea42d911199586a609a102",
+            "name": "Change the sensitivity and action for an anomaly detection type WAF rule package",
+            "url": "https\/zones\/:zone_identifier\/firewall\/waf\/packages\/:identifier",
+            "description": "Change the sensitivity and action for an anomaly detection type WAF rule package",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "patch",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "action_mode",
+                    "description": "The default action that will be taken for rules under the firewall package.ttttttttttttttchallenge",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "sensitivity",
+                    "description": "The sensitivity of the firewall package.tttttttttttttthigh",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "X",
+                    "description": "Email address associated with your account",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "016633f838ea1667892fecc421be78d8",
+            "name": "Search, sort, and filter rules within a package",
+            "url": "https\/zones\/:zone_id\/firewall\/waf\/packages\/:package_id\/rules",
+            "description": "Search, sort, and filter rules within a package",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "description",
+                    "description": "Public description of the rulettttttttttttttSQL injection prevention for SELECT statements",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "direction",
+                    "description": "Direction to order subscriptionsdesc",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "group_id",
+                    "description": "WAF group identifier tagttttttttttttttde677e5818985db1285d0e80225f06e5",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "match",
+                    "description": "Whether to match all search requirements or at least one (any)all",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "mode",
+                    "description": "The action to apply to a matched requestttttttttttttttchallenge",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "order",
+                    "description": "Field to order subscriptions bystatus",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "page",
+                    "description": "Page number of paginated results1",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "per_page",
+                    "description": "Number of items per page20",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "priority",
+                    "description": "The order in which the individual rule is executed within the related grouptttttttttttttt5",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "X",
+                    "description": "Email address associated with your account",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "3a6bf030ab06a5866f91647e8cedd8d2",
+            "name": "Individual information about a rule",
+            "url": "https\/zones\/:zone_id\/firewall\/waf\/packages\/:package_id\/rules\/:identifier",
+            "description": "Individual information about a rule",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "d1afbdd679065c23dc340863e26e043b",
+            "name": "Update the action the rule will perform if triggered on the zone",
+            "url": "https\/zones\/:zone_id\/firewall\/waf\/packages\/:package_id\/rules\/:identifier",
+            "description": "Update the action the rule will perform if triggered on the zone",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "patch",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "mode",
+                    "description": "The action to apply to a matched requestttttttttttttttchallenge",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "X",
+                    "description": "Email address associated with your account",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "55430a1ea22533a25ebd07b8411090ae",
+            "name": "This view provides a breakdown of analytics data by datacenter",
+            "url": "https\/zones\/:zone_identifier\/analytics\/colos",
+            "description": "This view provides a breakdown of analytics data by datacenter",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "continuous",
+                    "description": "When set to true, the range returned by the response acts like a sliding window to provide a contiguous time-window. Analytics data is processed and aggregated asynchronously and can sometimes lead to recent data points being incomplete if this value is set to false. If a start date provided is earlier than a date for which data is available, the API will return 0s for those dates until the first available date with datatttttttttttttttrue",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "since",
+                    "description": "The (inclusive) beginning of the requested time frame. This value can be a negative integer representing the number of minutes in the past relative to time the request is made, or can be an absolute timestamp that conforms to RFC 3339. At this point in time, it cannot exceed a time in the past greater than one year.tRanges that the CloudFlare web application provides will provide the following period length for each point:ttLast 30 minutes (-30): 1 minutetLast 6 hours (-360): 15 minutestLast 12 ",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "until",
+                    "description": "The (exclusive) end of the requested time frame. This value can be a negative integer representing the number of minutes in the past relative to time the request is made, or can be an absolute timestamp that conforms to RFC 3339. If omitted, the time of the request is used.tttttttttttttt2015-01-02T12:23:00Z",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "X",
+                    "description": "Email address associated with your account",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "c27d1fbd204840f57a579b99f29cdc8d",
+            "name": "The dashboard view provides both totals and timeseries data for the given zone and time period across the entire CloudFlare network",
+            "url": "https\/zones\/:zone_identifier\/analytics\/dashboard",
+            "description": "The dashboard view provides both totals and timeseries data for the given zone and time period across the entire CloudFlare network",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "continuous",
+                    "description": "When set to true, the range returned by the response acts like a sliding window to provide a contiguous time-window. Analytics data is processed and aggregated asynchronously and can sometimes lead to recent data points being incomplete if this value is set to false. If a start date provided is earlier than a date for which data is available, the API will return 0s for those dates until the first available date with datatttttttttttttttrue",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "since",
+                    "description": "The (inclusive) beginning of the requested time frame. This value can be a negative integer representing the number of minutes in the past relative to time the request is made, or can be an absolute timestamp that conforms to RFC 3339. At this point in time, it cannot exceed a time in the past greater than one year.tRanges that the CloudFlare web application provides will provide the following period length for each point:ttLast 30 minutes (-30): 1 minutetLast 6 hours (-360): 15 minutestLast 12 ",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "until",
+                    "description": "The (exclusive) end of the requested time frame. This value can be a negative integer representing the number of minutes in the past relative to time the request is made, or can be an absolute timestamp that conforms to RFC 3339. If omitted, the time of the request is used.tttttttttttttt2015-01-02T12:23:00Z",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "X",
+                    "description": "Email address associated with your account",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "057b97947600c300ce79474e78eec546",
+            "name": "List, search, sort, and filter your zones",
+            "url": "https\/zones",
+            "description": "List, search, sort, and filter your zones",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "direction",
+                    "description": "Direction to order subscriptionsdesc",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "match",
+                    "description": "Whether to match all search requirements or at least one (any)all",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "name",
+                    "description": "DNS record namettttttttttttttexample.com",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "order",
+                    "description": "Field to order subscriptions bystatus",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "page",
+                    "description": "Page number of paginated results1",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "per_page",
+                    "description": "Number of items per page20",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "status",
+                    "description": "The state of the subscriptionactive",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "X",
+                    "description": "Email address associated with your account",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "2ded33ff188e8b62ab8e17683fbe8a94",
+            "name": "The domain name",
+            "url": "https\/zones",
+            "description": "The domain name",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "name",
+                    "description": "DNS record namettttttttttttttexample.com",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "X",
+                    "description": "Email address associated with your account",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "ada29ba2be030de51ae56fd4c93e95c9",
+            "name": "Delete an existing zone",
+            "url": "https\/zones\/:identifier",
+            "description": "Delete an existing zone",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "86acabe4fafd1be0bf5b2761ca8986e9",
+            "name": "Zone details permission needed: #zone:read",
+            "url": "https\/zones\/:identifier",
+            "description": " Zone details permission needed: #zone:readntt  ",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "022e51d9e2de162618a4b24cd85379fb",
+            "name": "Only one zone property can be changed at a time",
+            "url": "https\/zones\/:identifier",
+            "description": "Only one zone property can be changed at a time",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "patch",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "paused",
+                    "description": "Indicates if the zone is only using CloudFlare DNS services. A true value means the zone will not receive security or performance benefits.ttttttttttttttfalse",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "plan",
+                    "description": "The desired plan for the zone. Changing this value will create\/cancel associated subscriptions. To view available plans for this zone, see Zone Planstttttttttttttt{id:e592fd9519420ba7405e1307bff33214}ttttttttttttttttttttttttttttShow definition &raquo;ttttttttttttttttttttttttttttttttttName \/typettttttttttDescription \/examplettttttttttConstraintstttttttttttttttttttttttttttttttttttttttttttttttttttidttttttttttttstring",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "vanity_name_servers",
+                    "description": "An array of domains used for custom name servers. This is only available for Business and Enterprise plans.tttttttttttttt[ns1.example.com,ns2.example.com]",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "X",
+                    "description": "Email address associated with your account",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "f28a603ee4e251ab2064f48d7b4d63ae",
+            "name": "Initiate another zone activation check permission needed: #zone:edit",
+            "url": "https\/zones\/:identifier\/activation_check",
+            "description": " Initiate another zone activation check permission needed: #zone:editntt  ",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "00cb85ae6d4bc067637bac6e9f536163",
+            "name": "Remove ALL files from CloudFlare&#39;s cache",
+            "url": "https\/zones\/:identifier\/purge_cache",
+            "description": "Remove ALL files from CloudFlare&#39;s cache",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "files",
+                    "description": "An array of URLs that should be removed from cachetttttttttttttt[http:\/\/www.example.com\/css\/styles.css]",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "purge_everything",
+                    "description": "A flag that indicates all resources in CloudFlares cache should be removed. Note: This may have dramatic affects on your origin server load after performing this action.tttttttttttttttrue",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "tags",
+                    "description": "Any assets served with a Cache-Tag header that matches one of the provided values will be purged from the CloudFlare cachetttttttttttttt[some-tag,another-tag]",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "X",
+                    "description": "Email address associated with your account",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "fe91d3dc26927ee0c9edd100ef953ed3",
+            "name": "List all of your zone plan subscriptions",
+            "url": "https\/user\/billing\/subscriptions\/zones",
+            "description": "List all of your zone plan subscriptions",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "activated_on",
+                    "description": "When the subscription was activated2014-03-01T12:20:00Z",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "cancelled_on",
+                    "description": "When the subscription was cancelled2014-04-01T12:20:00Z",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "direction",
+                    "description": "Direction to order subscriptionsdesc",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "expired_on",
+                    "description": "When the subscription expired2014-04-02T12:20:00Z",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "expires_on",
+                    "description": "When the subscription will expire2014-03-31T12:20:00Z",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "match",
+                    "description": "Whether to match all search requirements or at least one (any)all",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "order",
+                    "description": "Field to order subscriptions bystatus",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "page",
+                    "description": "Page number of paginated results1",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "per_page",
+                    "description": "Number of items per page20",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "price",
+                    "description": "The price of the subscription that will be billed, in US dollars20",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "renewed_on",
+                    "description": "When the subscription was renewed2014-05-11T12:20:00Z",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "status",
+                    "description": "The state of the subscriptionactive",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "X",
+                    "description": "Email address associated with your account",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        },
+        {
+            "id": "01d63a60c6cc7b9569433b8b0b24c720",
+            "name": "Billing subscription details",
+            "url": "https\/user\/billing\/subscriptions\/zones\/:identifier",
+            "description": "Billing subscription details",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "rawModeData": ""
+        }
+    ]
+}
