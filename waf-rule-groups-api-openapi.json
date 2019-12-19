@@ -1,0 +1,16 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "WAF Rule Groups API",
+        "description": "The API for managing CloudFlare WAF Rule Groups",
+        "termsOfService": "https:\/\/www.cloudflare.com\/terms\/"
+    },
+    "servers": [
+        "httpsapi.cloudflare.com\/client\/v4"
+    ],
+    "paths": [],
+    "components": {
+        "schemas": []
+    }
+}
