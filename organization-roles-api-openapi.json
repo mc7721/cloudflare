@@ -1,0 +1,16 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "Organization Roles API",
+        "description": "The API for managing CloudFlare Organization Roles",
+        "termsOfService": "https:\/\/www.cloudflare.com\/terms\/"
+    },
+    "servers": [
+        "httpsapi.cloudflare.com\/client\/v4"
+    ],
+    "paths": [],
+    "components": {
+        "schemas": []
+    }
+}
