@@ -1,0 +1,16 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "Railgun connections for a Zone API",
+        "description": "The API for managing CloudFlare Railgun connections for a Zone",
+        "termsOfService": "https:\/\/www.cloudflare.com\/terms\/"
+    },
+    "servers": [
+        "httpsapi.cloudflare.com\/client\/v4"
+    ],
+    "paths": [],
+    "components": {
+        "schemas": []
+    }
+}
