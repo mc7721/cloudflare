@@ -1,5 +1,5 @@
 {
-    "id": "ae4166ebef36817babba812ff0954b72",
+    "id": "922fdf7f21a8cab7252eb664a3d6083f",
     "name": "CloudFlare",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "44c92a883a982b666535122ced282719",
+            "id": "553935e6200af83cca3148016ac659fc",
             "name": "List all of your app subscriptions",
             "url": "https\/user\/billing\/subscriptions\/apps",
             "description": "List all of your app subscriptions",
@@ -121,11 +121,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "cca1e8947870ee81dbe885a8d861fa62",
+            "id": "43c7a590de8903c934dcb313295fd95e",
             "name": "Billing subscription details",
             "url": "https\/user\/billing\/subscriptions\/apps\/:identifier",
             "description": "Billing subscription details",
@@ -144,11 +144,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "a06a1b11693198f17902460043218185",
+            "id": "afda2b5f7c93a7b720baee635d2ccdf8",
             "name": "A list of available Custom Pages the zone can use",
             "url": "https\/zones\/:zone_identifier\/custom_pages",
             "description": "A list of available Custom Pages the zone can use",
@@ -167,11 +167,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "f1ca9964bca80883b06ed06bbd1afa3b",
+            "id": "6e09ebcf931e5bded246312a217203bd",
             "name": "Details about a specific Custom page details",
             "url": "https\/zones\/:zone_identifier\/custom_pages\/:identifier",
             "description": "Details about a specific Custom page details",
@@ -190,11 +190,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "f7798a3561cba2afdf5ab95e940af5cf",
+            "id": "05eed7f2256560c0e2f70fc53affa3c5",
             "name": "Update Custom page URL",
             "url": "https\/zones\/:zone_identifier\/custom_pages\/:identifier",
             "description": "Update Custom page URL",
@@ -235,11 +235,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "a33652dda3f2b2531affbf7b7487235b",
+            "id": "97346dab86de1935ab4f281e45c05289",
             "name": "List, search, sort, and filter all of your custom SSL certificates",
             "url": "https\/zones\/:zone_identifier\/custom_certificates",
             "description": "List, search, sort, and filter all of your custom SSL certificates",
@@ -308,11 +308,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "65780061687794cca29bfe3d63989eff",
+            "id": "fccb20b1b7a15de109f60092186f9840",
             "name": "Upload a new SSL certificate for a zone",
             "url": "https\/zones\/:zone_identifier\/custom_certificates",
             "description": "Upload a new SSL certificate for a zone",
@@ -353,11 +353,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "1670cb526dd1fa4b515f5ecd497627e3",
+            "id": "ad780eb1f96a710cbf2d86ae23f3f3ab",
             "name": "Delete an SSL certificate permission needed: #ssl:edit",
             "url": "https\/zones\/:zone_identifier\/custom_certificates\/:identifier",
             "description": " Delete an SSL certificate permission needed: #ssl:editntt  ",
@@ -376,11 +376,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "50603d4191e90e491087f038a5ba4d12",
+            "id": "cbba13e7b059e970ee9a80d574519ad6",
             "name": "SSL configuration details permission needed: #ssl:read",
             "url": "https\/zones\/:zone_identifier\/custom_certificates\/:identifier",
             "description": " SSL configuration details permission needed: #ssl:readntt  ",
@@ -399,11 +399,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "97aa427b3c086151294996301685d71d",
+            "id": "df12525d6002714ab6cc7553bc4fc515",
             "name": "Upload a new private key and\/or PEM\/CRT for the SSL certificate",
             "url": "https\/zones\/:zone_identifier\/custom_certificates\/:identifier",
             "description": "Upload a new private key and\/or PEM\/CRT for the SSL certificate",
@@ -444,11 +444,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "7d700c7abd55639b17403b8d65dc329d",
+            "id": "7e92dcbe42c4bef648023a93386002c0",
             "name": "If a zone has multiple SSL certificates, you can set the order in which they should be used during a request",
             "url": "https\/zones\/:zone_identifier\/custom_certificates\/prioritize",
             "description": "If a zone has multiple SSL certificates, you can set the order in which they should be used during a request",
@@ -482,11 +482,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "17aa9431dbe30bb589562d1943ff6224",
+            "id": "b11793b38e5cb10b644706c4c5ba7170",
             "name": "List, search, sort, and filter a zones&#39; DNS records",
             "url": "https\/zones\/:zone_identifier\/dns_records",
             "description": "List, search, sort, and filter a zones&#39; DNS records",
@@ -569,11 +569,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "95f687356174cf7d6016e6747da71e18",
+            "id": "a26eb3299ae89a9623a57eaf04f50ab2",
             "name": "Create a new DNS record for a zone",
             "url": "https\/zones\/:zone_identifier\/dns_records",
             "description": "Create a new DNS record for a zone",
@@ -621,11 +621,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "11c0fbdd03fdc569eb4ff92661d72f51",
+            "id": "087e39fa223005beb7a9ced24b0c58a8",
             "name": "Delete DNS record permission needed: #dns_records:edit",
             "url": "https\/zones\/:zone_identifier\/dns_records\/:identifier",
             "description": " Delete DNS record permission needed: #dns_records:editntt  ",
@@ -644,11 +644,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "1db3d6961c4d496343f7bf0060e84e42",
+            "id": "fa7228c87a3161c94130effed6807111",
             "name": "DNS record details permission needed: #dns_records:read",
             "url": "https\/zones\/:zone_identifier\/dns_records\/:identifier",
             "description": " DNS record details permission needed: #dns_records:readntt  ",
@@ -667,11 +667,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "fb7641ad80c189693b3572571068ae0e",
+            "id": "2e8138add11c1fa089a3caf83560b447",
             "name": "Update DNS record permission needed: #dns_records:edit",
             "url": "https\/zones\/:zone_identifier\/dns_records\/:identifier",
             "description": " Update DNS record permission needed: #dns_records:editntt  ",
@@ -690,11 +690,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "3e80ef0cfa67d41ee3a14b4d6c6022fd",
+            "id": "bc0a9476e2c329588cf69d9040e51d00",
             "name": "Search, sort, and filter IP\/country access rules",
             "url": "https\/zones\/:zone_id\/firewall\/access_rules\/rules",
             "description": "Search, sort, and filter IP\/country access rules",
@@ -784,11 +784,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "22fc4cb6c08cbb7af61cd1d1e9d0202b",
+            "id": "bf56a96c0fb9ba72d2e4745014e0a263",
             "name": "Make a new IP, IP range, or country access rule for the zone",
             "url": "https\/zones\/:zone_id\/firewall\/access_rules\/rules",
             "description": "Make a new IP, IP range, or country access rule for the zone",
@@ -836,11 +836,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "44ebb696c9e62661f3a6cac56630c175",
+            "id": "5b28cc0d069a70fc10a0bdba502501f1",
             "name": "Remove an access rule so it is no longer evaluated during requests",
             "url": "https\/zones\/:zone_id\/firewall\/access_rules\/rules\/:identifier",
             "description": "Remove an access rule so it is no longer evaluated during requests",
@@ -874,11 +874,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "16c32ab013a1f7f6f53f30060148d008",
+            "id": "5d9530191088327969a8938ce5d77b40",
             "name": "Update rule state and\/or configuration for the zone",
             "url": "https\/zones\/:zone_id\/firewall\/access_rules\/rules\/:identifier",
             "description": "Update rule state and\/or configuration for the zone",
@@ -919,11 +919,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "56d3a02dd9fd5f9c11881cfc27961809",
+            "id": "e8358a2e2f21c2ec1beddabe0b73ba76",
             "name": "List all Keyless SSL configurations for a given zone",
             "url": "https\/zones\/:zone_identifier\/keyless_certificates",
             "description": "List all Keyless SSL configurations for a given zone",
@@ -942,11 +942,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "f598628f6317db4de3c1421eb2eb25df",
+            "id": "f1a3373f6f1d4c53ee72713c5f1402aa",
             "name": "The keyless SSL name",
             "url": "https\/zones\/:zone_identifier\/keyless_certificates",
             "description": "The keyless SSL name",
@@ -1001,11 +1001,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "1cd5bd01c5e0a9870213badac28bfd7b",
+            "id": "8598da7a6c9eb871256572a9c47f168b",
             "name": "Delete Keyless configuration permission needed: #ssl:edit",
             "url": "https\/zones\/:zone_identifier\/keyless_certificates\/:identifier",
             "description": " Delete Keyless configuration permission needed: #ssl:editntt  ",
@@ -1024,11 +1024,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "9e193a3e990861bae276c8f69547717a",
+            "id": "62403dafa4ac6dfd144be2110c6bae04",
             "name": "Details for one Keyless SSL configuration",
             "url": "https\/zones\/:zone_identifier\/keyless_certificates\/:identifier",
             "description": "Details for one Keyless SSL configuration",
@@ -1047,11 +1047,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "741da346f089aa42b429dca2d601bf21",
+            "id": "83faf27cf17b426f1ce59c447e39801c",
             "name": "This will update attributes of a Keyless SSL",
             "url": "https\/zones\/:zone_identifier\/keyless_certificates\/:identifier",
             "description": "This will update attributes of a Keyless SSL",
@@ -1099,11 +1099,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "49b1dcb3ff68bd6d804af4fc58685b2a",
+            "id": "d229cbf58e75be9fd24d45057b480006",
             "name": "Change the Roles of a Pending Invite",
             "url": "https\/organizations\/:organization_identifier\/invite\/:identifier",
             "description": "Change the Roles of a Pending Invite",
@@ -1137,11 +1137,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "1e2533703617d45d6f13d3bc32c76546",
+            "id": "e3afb8bcb2fa8cd735bd762656c36aa1",
             "name": "List all invitations associated with an organization",
             "url": "https\/organizations\/:organization_identifier\/invites",
             "description": "List all invitations associated with an organization",
@@ -1160,11 +1160,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "9317fae0bf2f0969e22ade90a7768f40",
+            "id": "66554aba582913fc27d6be5e2209af68",
             "name": "Invite a User to become a Member of an Organization",
             "url": "https\/organizations\/:organization_identifier\/invites",
             "description": "Invite a User to become a Member of an Organization",
@@ -1205,11 +1205,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "27cc1eb04f1d010c56f4e16a81776ce7",
+            "id": "52b560850ddca413107465436ef48ca6",
             "name": "Cancel an existing invitation",
             "url": "https\/organizations\/:organization_identifier\/invites\/:identifier",
             "description": "Cancel an existing invitation",
@@ -1228,11 +1228,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "f65e73bb6efeeccc7fb07d4ccbd6f729",
+            "id": "aafcee79103fc74647d9bfb6b06fd751",
             "name": "Get the details of an invitation",
             "url": "https\/organizations\/:organization_identifier\/invites\/:identifier",
             "description": "Get the details of an invitation",
@@ -1251,11 +1251,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "43cc86d90dd5a9bcd55f6ffcea8054a2",
+            "id": "9cc23f0b362d05b260e30d2a37d7eb36",
             "name": "List all members of a organization",
             "url": "https\/organizations\/:organization_identifier\/members",
             "description": "List all members of a organization",
@@ -1274,11 +1274,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "f090e032a833c5d642aa629eeb1f1d50",
+            "id": "4873850d8ebfcd5284d24afcfdd3f7ff",
             "name": "Remove a member from an organization",
             "url": "https\/organizations\/:organization_identifier\/members\/:identifier",
             "description": "Remove a member from an organization",
@@ -1297,11 +1297,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "d84afd76aee3839adf113dc2196f53f4",
+            "id": "642e1c4b31b9ece0bedeb212e098c3ec",
             "name": "Get information about a specific member of an organization",
             "url": "https\/organizations\/:organization_identifier\/members\/:identifier",
             "description": "Get information about a specific member of an organization",
@@ -1320,11 +1320,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "77f2bc190ebc475ab2fc468136d20b54",
+            "id": "dfb70a50ccd82ff34f6a16f6552cc49c",
             "name": "Change the Roles of an Organization&#39;s Member",
             "url": "https\/organizations\/:organization_identifier\/members\/:identifier",
             "description": "Change the Roles of an Organization&#39;s Member",
@@ -1358,11 +1358,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "502873afdfced5c741d14bf8b0d6378d",
+            "id": "0e56cbc9c2f84981e8a47d4c38cfa6a3",
             "name": "Get all available roles for an organization",
             "url": "https\/organizations\/:organization_identifier\/roles",
             "description": "Get all available roles for an organization",
@@ -1381,11 +1381,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "e46d7f15c40033272534db373f0f4d3e",
+            "id": "ed50cef250f650e8020cf4cf03fc112f",
             "name": "Get information about a specific role for an organization",
             "url": "https\/organizations\/:organization_identifier\/roles\/:identifier",
             "description": "Get information about a specific role for an organization",
@@ -1404,11 +1404,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "dbcefbb35bff37961fea683443e97676",
+            "id": "2b968793515929a05a66a77cb1267b12",
             "name": "Search, sort, and filter IP\/country access rules",
             "url": "https\/organizations\/:organization_id\/firewall\/access_rules\/rules",
             "description": "Search, sort, and filter IP\/country access rules",
@@ -1491,11 +1491,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "85842560056f4d646e9e68e489cff768",
+            "id": "cded701747dd3a71f2928b8d4616b67b",
             "name": "Make a new IP, IP range, or country access rule for all zones owned by the organization",
             "url": "https\/organizations\/:organization_id\/firewall\/access_rules\/rules",
             "description": "Make a new IP, IP range, or country access rule for all zones owned by the organization",
@@ -1543,11 +1543,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "f779a7a9bc35b32f7551a21764aad0dc",
+            "id": "e941afb01e19b4a8f0daa8d4f6a43a85",
             "name": "Remove an access rule so it is no longer evaluated during requests",
             "url": "https\/organizations\/:organization_id\/firewall\/access_rules\/rules\/:identifier",
             "description": "Remove an access rule so it is no longer evaluated during requests",
@@ -1566,11 +1566,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "ad7baf91e1acef422943d272251df42a",
+            "id": "e33376a3e6371688408fbb5ebc881a05",
             "name": "Update rule state and\/or configuration",
             "url": "https\/organizations\/:organization_id\/firewall\/access_rules\/rules\/:identifier",
             "description": "Update rule state and\/or configuration",
@@ -1618,11 +1618,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "6885ff58140f1735ac36d6a19abd6435",
+            "id": "9ea1bd52bc5f5b581a07520254b4bf9d",
             "name": "Get information about a specific organization that you are a member of",
             "url": "https\/organizations\/:identifier",
             "description": "Get information about a specific organization that you are a member of",
@@ -1641,11 +1641,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "3ed6abf5be79be0a593946a63039f7be",
+            "id": "681dbed6189acd80d4d8f2ca0fcd0f0f",
             "name": "Update an existing Organization",
             "url": "https\/organizations\/:identifier",
             "description": "Update an existing Organization",
@@ -1679,11 +1679,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "6bc2f73ebb6306381db63c18c3b1eeff",
+            "id": "3e8b0ebe108ac5ef60a4b06ca8a28487",
             "name": "List, search, sort and filter your Railguns",
             "url": "https\/railguns",
             "description": "List, search, sort and filter your Railguns",
@@ -1731,11 +1731,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "d01ed3162c48fdd18ef4faf0c5734ba8",
+            "id": "de9003814b94669864c4915ea3beb8f7",
             "name": "Readable identifier of the railgun",
             "url": "https\/railguns",
             "description": "Readable identifier of the railgun",
@@ -1769,11 +1769,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "cc756b17ed7ed33d9c0e2be8e30f206c",
+            "id": "870a474a267d9b7fd99391327bdf374f",
             "name": "Disable and delete a Railgun",
             "url": "https\/railguns\/:identifier",
             "description": "Disable and delete a Railgun",
@@ -1792,11 +1792,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "ebeb954cd6e5f5c27129ca04258e96f9",
+            "id": "b875327d1dd5c1eeeeee672529e8080f",
             "name": "Railgun details",
             "url": "https\/railguns\/:identifier",
             "description": " Railgun detailsntt  ",
@@ -1815,11 +1815,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "2ad733a9a41fde702d54400edd462bde",
+            "id": "a3f38e356b2ebacca16d1083fbc111f9",
             "name": "Enable or disable a Railgun for all zones connected to it",
             "url": "https\/railguns\/:identifier",
             "description": "Enable or disable a Railgun for all zones connected to it",
@@ -1853,11 +1853,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "94f21326e34df526673c9e6b91eb1367",
+            "id": "5415044599c2778f6d7135ffbbdd957c",
             "name": "The zones that are currently using this Railgun",
             "url": "https\/railguns\/:identifier\/zones",
             "description": "The zones that are currently using this Railgun",
@@ -1876,11 +1876,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "c0c31c3f70b2678fd14e5a5a09f3fd44",
+            "id": "897ce43a8bfe67bd5e525f3be7e4c48e",
             "name": "A list of available Railguns the zone can use",
             "url": "https\/zones\/:zone_identifier\/railguns",
             "description": "A list of available Railguns the zone can use",
@@ -1899,11 +1899,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "b5db4b574e2a63d3a6306ae02b94d429",
+            "id": "2708c1406f6c54bd478c7d168b948383",
             "name": "Details about a specific Railgun",
             "url": "https\/zones\/:zone_identifier\/railguns\/:identifier",
             "description": "Details about a specific Railgun",
@@ -1922,11 +1922,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "e64608d335e179071d9d8daca66652ca",
+            "id": "8ae0061946e6a3fef4f80b5237be6647",
             "name": "Connect or disconnect a Railgun",
             "url": "https\/zones\/:zone_identifier\/railguns\/:identifier",
             "description": "Connect or disconnect a Railgun",
@@ -1960,11 +1960,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "0cb0b3c0cc5d87484e5c25b6ec004afe",
+            "id": "969ebbc5a7b053d2ca5b79018b903935",
             "name": "Test Railgun connection to the Zone",
             "url": "https\/zones\/:zone_identifier\/railguns\/:identifier\/diagnose",
             "description": "Test Railgun connection to the Zone",
@@ -1983,11 +1983,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "456f5aaca57ae1824098bc3be90cbc3b",
+            "id": "93e50270d60f38411aa46675ad89e015",
             "name": "User details",
             "url": "https\/user",
             "description": " User detailsn",
@@ -2006,11 +2006,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "1ae5220b8a2c4eb6050f6bf65fc9c7b3",
+            "id": "1588d92078ced31da930f05d7149bbcc",
             "name": "Update part of your user details",
             "url": "https\/user",
             "description": "Update part of your user details",
@@ -2072,11 +2072,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "65a60b5742202e9cede50a34801fde21",
+            "id": "ceaba8ac63f8aa6266fdf25a67f16bd9",
             "name": "Access your billing history object",
             "url": "https\/user\/billing\/history",
             "description": "Access your billing history object",
@@ -2145,11 +2145,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "2bc421cb85548752bbad7f7f22140b95",
+            "id": "26ee876808bc668bcee7c5287b217da2",
             "name": "Access your billing profile object",
             "url": "https\/user\/billing\/profile",
             "description": "Access your billing profile object",
@@ -2168,11 +2168,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "a2b40f4630201a865b5b14f020306f32",
+            "id": "6a522767b912c169cae41f5bfbe32fd6",
             "name": "Search, sort, and filter IP\/country access rules",
             "url": "https\/user\/firewall\/access_rules\/rules",
             "description": "Search, sort, and filter IP\/country access rules",
@@ -2255,11 +2255,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "c2a254dd14136d148531954de7d492ac",
+            "id": "d4db1106872ff3f0fbafcde8600e7747",
             "name": "Make a new IP, IP range, or country access rule for all zones owned by the user",
             "url": "https\/user\/firewall\/access_rules\/rules",
             "description": "Make a new IP, IP range, or country access rule for all zones owned by the user",
@@ -2307,11 +2307,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "0ed442a0283784924b172cf9a0c02dd8",
+            "id": "6e69926430589dcb515b5921c0608c83",
             "name": "Remove an access rule so it is no longer evaluated during requests",
             "url": "https\/user\/firewall\/access_rules\/rules\/:identifier",
             "description": "Remove an access rule so it is no longer evaluated during requests",
@@ -2330,11 +2330,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "5fafaff4a343bdfcb05f62cd8cc68548",
+            "id": "8d5a000fba080c94eca1e88173430726",
             "name": "Update rule state and\/or configuration",
             "url": "https\/user\/firewall\/access_rules\/rules\/:identifier",
             "description": "Update rule state and\/or configuration",
@@ -2382,11 +2382,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "d7367acf5cf926b9a86fbd1686da08ad",
+            "id": "3d0aa85026e76cf66134be24d30420fc",
             "name": "List all invitations associated with my user",
             "url": "https\/user\/invites",
             "description": "List all invitations associated with my user",
@@ -2405,11 +2405,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "323554cd108e3521f5cfeead1dec1bb4",
+            "id": "6b2dce104006f8995acf3d2d4b31f75d",
             "name": "Get the details of an invitation",
             "url": "https\/user\/invites\/:identifier",
             "description": "Get the details of an invitation",
@@ -2428,11 +2428,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "63523f5083c0461c6aca34b50c5c6bb9",
+            "id": "efd923bae99f25e42f1961801754ab40",
             "name": "Respond to an invitation",
             "url": "https\/user\/invites\/:identifier",
             "description": "Respond to an invitation",
@@ -2466,11 +2466,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "d3148960d28d2afa8cae5e986a5186e5",
+            "id": "39ad699a1aefad22b3450fbf714cacce",
             "name": "List organizations the user is associated with",
             "url": "https\/user\/organizations",
             "description": "List organizations the user is associated with",
@@ -2546,11 +2546,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "39acceba91458efb395192abe8beae5d",
+            "id": "c7fe0eb0fecfb8eaa38e8f9ce9ff54c3",
             "name": "Remove association to an organization",
             "url": "https\/user\/organizations\/:identifier",
             "description": "Remove association to an organization",
@@ -2569,11 +2569,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "4a1aabd5bd0703dadeb347d4e9cd76dc",
+            "id": "eceffc4802e1a0231b3d96390c29a710",
             "name": "Get a specific organization the user is associated with",
             "url": "https\/user\/organizations\/:identifier",
             "description": "Get a specific organization the user is associated with",
@@ -2592,11 +2592,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "e6a0094d2d3af5f58286b386302cff28",
+            "id": "3a3fa107f3da9b953aeb1bfa39deac06",
             "name": "Search, list, and sort rule groups contained within a package",
             "url": "https\/zones\/:zone_identifier\/firewall\/waf\/packages\/:package_identifier\/groups",
             "description": "Search, list, and sort rule groups contained within a package",
@@ -2679,11 +2679,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "89a24fcc9dd85a18f3d3b3714a922274",
+            "id": "59b9c9d1f24c7c7cb5321344535b35f3",
             "name": "Get a single rule group",
             "url": "https\/zones\/:zone_identifier\/firewall\/waf\/packages\/:package_identifier\/groups\/:identifier",
             "description": "Get a single rule group",
@@ -2702,11 +2702,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "f68eec7c6b5df57a00d23a83138b97a4",
+            "id": "8cb297e81e05bc4f7f1a75304dd35fee",
             "name": "Update the state of a rule group",
             "url": "https\/zones\/:zone_identifier\/firewall\/waf\/packages\/:package_identifier\/groups\/:identifier",
             "description": "Update the state of a rule group",
@@ -2740,11 +2740,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "29a7f8af7f6e6513d953769f73b5b04f",
+            "id": "60cab7b4e063679cb48317d67344c66e",
             "name": "Retrieve firewall packages for a zone",
             "url": "https\/zones\/:zone_identifier\/firewall\/waf\/packages",
             "description": "Retrieve firewall packages for a zone",
@@ -2813,11 +2813,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "b549e4d1ba7b01963bc0d182ed1befea",
+            "id": "0ebfffe7c7a6957c4b0375e7bd524aae",
             "name": "Get information about a single firewall package",
             "url": "https\/zones\/:zone_identifier\/firewall\/waf\/packages\/:identifier",
             "description": "Get information about a single firewall package",
@@ -2836,11 +2836,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "5a9ad9f1c8ea42d911199586a609a102",
+            "id": "1c0014e5566f04c1845285253c8f9fd6",
             "name": "Change the sensitivity and action for an anomaly detection type WAF rule package",
             "url": "https\/zones\/:zone_identifier\/firewall\/waf\/packages\/:identifier",
             "description": "Change the sensitivity and action for an anomaly detection type WAF rule package",
@@ -2881,11 +2881,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "016633f838ea1667892fecc421be78d8",
+            "id": "dd78214f807ed608ee456a47e3666636",
             "name": "Search, sort, and filter rules within a package",
             "url": "https\/zones\/:zone_id\/firewall\/waf\/packages\/:package_id\/rules",
             "description": "Search, sort, and filter rules within a package",
@@ -2975,11 +2975,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "3a6bf030ab06a5866f91647e8cedd8d2",
+            "id": "73af924ba79527bf53a8c9dee3243753",
             "name": "Individual information about a rule",
             "url": "https\/zones\/:zone_id\/firewall\/waf\/packages\/:package_id\/rules\/:identifier",
             "description": "Individual information about a rule",
@@ -2998,11 +2998,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "d1afbdd679065c23dc340863e26e043b",
+            "id": "16397425ad3d8e236a821d2f2625c685",
             "name": "Update the action the rule will perform if triggered on the zone",
             "url": "https\/zones\/:zone_id\/firewall\/waf\/packages\/:package_id\/rules\/:identifier",
             "description": "Update the action the rule will perform if triggered on the zone",
@@ -3036,11 +3036,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "55430a1ea22533a25ebd07b8411090ae",
+            "id": "f1f0fbb723cdf67e0779bf42b20e2cea",
             "name": "This view provides a breakdown of analytics data by datacenter",
             "url": "https\/zones\/:zone_identifier\/analytics\/colos",
             "description": "This view provides a breakdown of analytics data by datacenter",
@@ -3088,11 +3088,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "c27d1fbd204840f57a579b99f29cdc8d",
+            "id": "f1718696ca71a61f5ea8287eaaa23aab",
             "name": "The dashboard view provides both totals and timeseries data for the given zone and time period across the entire CloudFlare network",
             "url": "https\/zones\/:zone_identifier\/analytics\/dashboard",
             "description": "The dashboard view provides both totals and timeseries data for the given zone and time period across the entire CloudFlare network",
@@ -3140,11 +3140,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "057b97947600c300ce79474e78eec546",
+            "id": "902cd846c93fe60ea13db52672a50389",
             "name": "List, search, sort, and filter your zones",
             "url": "https\/zones",
             "description": "List, search, sort, and filter your zones",
@@ -3220,11 +3220,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "2ded33ff188e8b62ab8e17683fbe8a94",
+            "id": "91a2c10eb6156fde6ab2dfbe3cd33c05",
             "name": "The domain name",
             "url": "https\/zones",
             "description": "The domain name",
@@ -3258,11 +3258,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "ada29ba2be030de51ae56fd4c93e95c9",
+            "id": "d2fd2ba3af0dc0dd7d7f3d889dad0ca5",
             "name": "Delete an existing zone",
             "url": "https\/zones\/:identifier",
             "description": "Delete an existing zone",
@@ -3281,11 +3281,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "86acabe4fafd1be0bf5b2761ca8986e9",
+            "id": "8f673e3e6a5709477b66187cd7e1e0d9",
             "name": "Zone details permission needed: #zone:read",
             "url": "https\/zones\/:identifier",
             "description": " Zone details permission needed: #zone:readntt  ",
@@ -3304,11 +3304,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "022e51d9e2de162618a4b24cd85379fb",
+            "id": "5d76ebc0ae68b2a13b771a08346f3e11",
             "name": "Only one zone property can be changed at a time",
             "url": "https\/zones\/:identifier",
             "description": "Only one zone property can be changed at a time",
@@ -3356,11 +3356,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "f28a603ee4e251ab2064f48d7b4d63ae",
+            "id": "014b36e0e9a6724c9ed63573f093910e",
             "name": "Initiate another zone activation check permission needed: #zone:edit",
             "url": "https\/zones\/:identifier\/activation_check",
             "description": " Initiate another zone activation check permission needed: #zone:editntt  ",
@@ -3379,11 +3379,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "00cb85ae6d4bc067637bac6e9f536163",
+            "id": "6c6ea3c53806c9152245b1c32e411487",
             "name": "Remove ALL files from CloudFlare&#39;s cache",
             "url": "https\/zones\/:identifier\/purge_cache",
             "description": "Remove ALL files from CloudFlare&#39;s cache",
@@ -3431,11 +3431,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "fe91d3dc26927ee0c9edd100ef953ed3",
+            "id": "f38ac0d6e6d2b1a696999d18df398e37",
             "name": "List all of your zone plan subscriptions",
             "url": "https\/user\/billing\/subscriptions\/zones",
             "description": "List all of your zone plan subscriptions",
@@ -3546,11 +3546,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         },
         {
-            "id": "01d63a60c6cc7b9569433b8b0b24c720",
+            "id": "7e2f8f064278a3f2d4456d9ae28ad0ca",
             "name": "Billing subscription details",
             "url": "https\/user\/billing\/subscriptions\/zones\/:identifier",
             "description": "Billing subscription details",
@@ -3569,7 +3569,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ae4166ebef36817babba812ff0954b72",
+            "collectionId": "922fdf7f21a8cab7252eb664a3d6083f",
             "rawModeData": ""
         }
     ]
