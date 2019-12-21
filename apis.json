@@ -13,8 +13,8 @@
         "security",
         "service api"
     ],
-    "created": "2019-12-19",
-    "modified": "2019-12-19",
+    "created": "2019-12-20",
+    "modified": "2019-12-20",
     "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/cloudflare\/master\/apis.json",
     "specificationVersion": "0.14",
     "apis": [
@@ -28,15 +28,11 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/user-api-openapi.json"
-                },
-                {
-                    "type": "x-openapi",
                     "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/user-api.json"
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/user-api-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/cloudflare\/master\/user-api-postman-collection.json"
                 }
             ]
         },
@@ -50,15 +46,11 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/user-billing-profile-api-openapi.json"
-                },
-                {
-                    "type": "x-openapi",
                     "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/user-billing-profile-api.json"
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/user-billing-profile-api-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/cloudflare\/master\/user-billing-profile-api-postman-collection.json"
                 }
             ]
         },
@@ -72,15 +64,11 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/user-billing-history-api-openapi.json"
-                },
-                {
-                    "type": "x-openapi",
                     "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/user-billing-history-api.json"
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/user-billing-history-api-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/cloudflare\/master\/user-billing-history-api-postman-collection.json"
                 }
             ]
         },
@@ -94,15 +82,11 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/app-subscription-api-openapi.json"
-                },
-                {
-                    "type": "x-openapi",
                     "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/app-subscription-api.json"
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/app-subscription-api-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/cloudflare\/master\/app-subscription-api-postman-collection.json"
                 }
             ]
         },
@@ -116,15 +100,11 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/zone-subscription-api-openapi.json"
-                },
-                {
-                    "type": "x-openapi",
                     "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/zone-subscription-api.json"
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/zone-subscription-api-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/cloudflare\/master\/zone-subscription-api-postman-collection.json"
                 }
             ]
         },
@@ -138,15 +118,11 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/userlevel-firewall-access-rule-api-openapi.json"
-                },
-                {
-                    "type": "x-openapi",
                     "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/userlevel-firewall-access-rule-api.json"
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/userlevel-firewall-access-rule-api-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/cloudflare\/master\/userlevel-firewall-access-rule-api-postman-collection.json"
                 }
             ]
         },
@@ -160,15 +136,11 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/users-organizations-api-openapi.json"
-                },
-                {
-                    "type": "x-openapi",
                     "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/users-organizations-api.json"
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/users-organizations-api-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/cloudflare\/master\/users-organizations-api-postman-collection.json"
                 }
             ]
         },
@@ -182,15 +154,11 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/users-invites-api-openapi.json"
-                },
-                {
-                    "type": "x-openapi",
                     "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/users-invites-api.json"
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/users-invites-api-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/cloudflare\/master\/users-invites-api-postman-collection.json"
                 }
             ]
         },
@@ -204,15 +172,11 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/zone-api-openapi.json"
-                },
-                {
-                    "type": "x-openapi",
                     "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/zone-api.json"
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/zone-api-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/cloudflare\/master\/zone-api-postman-collection.json"
                 }
             ]
         },
@@ -226,15 +190,11 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/dns-records-for-a-zone-api-openapi.json"
-                },
-                {
-                    "type": "x-openapi",
                     "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/dns-records-for-a-zone-api.json"
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/dns-records-for-a-zone-api-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/cloudflare\/master\/dns-records-for-a-zone-api-postman-collection.json"
                 }
             ]
         },
@@ -248,15 +208,11 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/railgun-connections-for-a-zone-api-openapi.json"
-                },
-                {
-                    "type": "x-openapi",
                     "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/railgun-connections-for-a-zone-api.json"
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/railgun-connections-for-a-zone-api-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/cloudflare\/master\/railgun-connections-for-a-zone-api-postman-collection.json"
                 }
             ]
         },
@@ -270,15 +226,11 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/zone-analytics-api-openapi.json"
-                },
-                {
-                    "type": "x-openapi",
                     "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/zone-analytics-api.json"
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/zone-analytics-api-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/cloudflare\/master\/zone-analytics-api-postman-collection.json"
                 }
             ]
         },
@@ -292,15 +244,11 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/railgun-api-openapi.json"
-                },
-                {
-                    "type": "x-openapi",
                     "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/railgun-api.json"
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/railgun-api-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/cloudflare\/master\/railgun-api-postman-collection.json"
                 }
             ]
         },
@@ -314,15 +262,11 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/custom-pages-for-a-zone-api-openapi.json"
-                },
-                {
-                    "type": "x-openapi",
                     "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/custom-pages-for-a-zone-api.json"
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/custom-pages-for-a-zone-api-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/cloudflare\/master\/custom-pages-for-a-zone-api-postman-collection.json"
                 }
             ]
         },
@@ -336,15 +280,11 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/custom-ssl-for-a-zone-api-openapi.json"
-                },
-                {
-                    "type": "x-openapi",
                     "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/custom-ssl-for-a-zone-api.json"
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/custom-ssl-for-a-zone-api-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/cloudflare\/master\/custom-ssl-for-a-zone-api-postman-collection.json"
                 }
             ]
         },
@@ -358,15 +298,11 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/keyless-ssl-for-a-zone-api-openapi.json"
-                },
-                {
-                    "type": "x-openapi",
                     "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/keyless-ssl-for-a-zone-api.json"
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/keyless-ssl-for-a-zone-api-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/cloudflare\/master\/keyless-ssl-for-a-zone-api-postman-collection.json"
                 }
             ]
         },
@@ -380,15 +316,11 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/firewall-access-rule-for-a-zone-api-openapi.json"
-                },
-                {
-                    "type": "x-openapi",
                     "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/firewall-access-rule-for-a-zone-api.json"
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/firewall-access-rule-for-a-zone-api-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/cloudflare\/master\/firewall-access-rule-for-a-zone-api-postman-collection.json"
                 }
             ]
         },
@@ -402,15 +334,11 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/waf-rule-packages-api-openapi.json"
-                },
-                {
-                    "type": "x-openapi",
                     "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/waf-rule-packages-api.json"
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/waf-rule-packages-api-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/cloudflare\/master\/waf-rule-packages-api-postman-collection.json"
                 }
             ]
         },
@@ -424,15 +352,11 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/waf-rule-groups-api-openapi.json"
-                },
-                {
-                    "type": "x-openapi",
                     "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/waf-rule-groups-api.json"
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/waf-rule-groups-api-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/cloudflare\/master\/waf-rule-groups-api-postman-collection.json"
                 }
             ]
         },
@@ -446,15 +370,11 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/waf-rules-api-openapi.json"
-                },
-                {
-                    "type": "x-openapi",
                     "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/waf-rules-api.json"
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/waf-rules-api-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/cloudflare\/master\/waf-rules-api-postman-collection.json"
                 }
             ]
         },
@@ -468,15 +388,11 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/organizations-api-openapi.json"
-                },
-                {
-                    "type": "x-openapi",
                     "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/organizations-api.json"
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/organizations-api-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/cloudflare\/master\/organizations-api-postman-collection.json"
                 }
             ]
         },
@@ -490,15 +406,11 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/organization-members-api-openapi.json"
-                },
-                {
-                    "type": "x-openapi",
                     "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/organization-members-api.json"
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/organization-members-api-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/cloudflare\/master\/organization-members-api-postman-collection.json"
                 }
             ]
         },
@@ -512,15 +424,11 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/organization-invites-api-openapi.json"
-                },
-                {
-                    "type": "x-openapi",
                     "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/organization-invites-api.json"
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/organization-invites-api-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/cloudflare\/master\/organization-invites-api-postman-collection.json"
                 }
             ]
         },
@@ -534,15 +442,11 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/organization-roles-api-openapi.json"
-                },
-                {
-                    "type": "x-openapi",
                     "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/organization-roles-api.json"
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/organization-roles-api-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/cloudflare\/master\/organization-roles-api-postman-collection.json"
                 }
             ]
         },
@@ -556,15 +460,11 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/organizationlevel-firewall-access-rule-api-openapi.json"
-                },
-                {
-                    "type": "x-openapi",
                     "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/organizationlevel-firewall-access-rule-api.json"
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/organizationlevel-firewall-access-rule-api-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/cloudflare\/master\/organizationlevel-firewall-access-rule-api-postman-collection.json"
                 }
             ]
         },
@@ -578,21 +478,21 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/cloudflare-openapi.json"
-                },
-                {
-                    "type": "x-openapi",
                     "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/cloudflare.json"
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/cloudflare-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/cloudflare\/master\/cloudflare-postman-collection.json"
                 }
             ]
         }
     ],
     "include": [],
     "x-common": [
+        {
+            "type": "APIs.json",
+            "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/apis.json"
+        },
         {
             "type": "Blog",
             "url": "https:\/\/blog.cloudflare.com\/"
